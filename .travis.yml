@@ -12,3 +12,12 @@ after_success:
 cache:
   directories:
   - node_modules
+deploy:
+  provider: npm
+  email: rr.rossmann@gmail.com
+  api_key:
+    secure: sFeAf5EJMix45N/57O7TvrPi9e3koNMUcq853AxoetJzly5Inpi0z0GfNabS8PzumP47vVO2ohBo81WxI99ABB3UN2ifoYmT+ubcyWJIosIaTvaUSok3ixCL59Ts4o+aX+Ud3CnD0HY+ZXLoUI+eayuViPPB7A+kJUIa6Di7Mg4ad7ScmCNuzoyuhqtKwF1tRRYiM42/9XQSAoGGx8MpPqkbaJJVJx6ctCeJAfOOJM+oMPE+Ce4vB2Sou/8cB66gULV/m0V2CSBoGoREZDmcR1Xie8azh7JlndoWDCKhev4ZmEMIVvLYavqs/TtfarTKtD5RvF8nm+H9ZUF05mODrqmbvhvFdiYnuSycjmbWYXkBtMRbBL4h+pKgYY6c8BlqmG18X0rsUTJd5FfF8H+ha+yNZoLZ184AK95akbSdU+XaKyLtkq4sdoJw2HKrqKnZCkfzvoLS4JR3MXNG5beTZcsePdpEWj4yXAlptSU8RqM01O4IrlEROXLbrH0bVsKYmXfWPDKXfQOIyHVHxsLE1v0EPVTD3aD5y8ZTICKGEtyx5J9ZJ95/ZPK5NsxpBz7txQt0x0K2MMe279K6233esv56XiqmFN2niZFl8V4shq+BTYgV4G4OW5nZcA+kWIsJPAgzRneDC1MBhg7L092VF/uD+g5/qe34sLne9Q0d/D4=
+  on:
+    tags: true
+    repo: Dreamscapes/sails-hook-bunyanlog
+    node: '5.10'
