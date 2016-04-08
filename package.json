@@ -1,7 +1,7 @@
 {
   "name": "sails-hook-bunyanlog",
   "description": "Drop-in logger replacement for Sails.js to use Bunyan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Robert Rossmann",
     "email": "rr.rossmann@me.com"
