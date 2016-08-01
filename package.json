@@ -17,7 +17,7 @@
     "coveralls": "^2.11.4",
     "eslint": "^2.7.0",
     "istanbul": "^0.4.0",
-    "mocha": "^2.3.4",
+    "mocha": "^3.0.0",
     "mocha-lcov-reporter": "^0.0.2",
     "sails": "^0.12.3",
     "sails-memory": "^0.10.5"
